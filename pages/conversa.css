@@ -20,6 +20,13 @@ footer .audio{
     width: 60px;
     background-color: rgb(129, 221, 76);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.micPic{
+    height: 50%;
 }
 
 footer .message{
@@ -27,6 +34,9 @@ footer .message{
     width: 70%;
     border-radius: 50px;
     background-color: rgb(70, 70, 70);
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
 }
 
 header{
@@ -59,6 +69,47 @@ h1{
     color: white;
 }
 
-p{
+h2{
     color: gray;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.deleMensagem{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(83, 83, 83, 0.404);
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.suaMensagem {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(90, 150, 0);
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.suaMensagemAside {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.suaMensagem >p{
+    color: white;
+}
+
+.deleMensagem>p{
+    color: white;
 }
