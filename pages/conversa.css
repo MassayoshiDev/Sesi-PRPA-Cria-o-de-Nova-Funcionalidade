@@ -31,5 +31,34 @@ footer .message{
 
 header{
     height: 70px;
-    background-color: red;
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    height: 55%;
+    margin: auto;
+}
+
+.pfp{
+    border-radius: 50%;
+}
+
+.goBackArrow{
+    height: 40%;
+}
+header .box{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: gray;
 }
