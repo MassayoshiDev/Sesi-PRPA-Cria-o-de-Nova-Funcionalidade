@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(29, 29, 29);
+    height: 200px;
+}
+
+h1{
+    color: white;
+}
+
+.icon{
+    height: 80%;
+}
+
+.searchBar{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(70, 70, 70);
+    margin: auto;
+    border-radius: 65px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchBar>p{
+    color: gray;
+}
+
+.searchBar>img{
+    margin-left: 17px;
+}
+
+.containerBoxOptions{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.boxOptions{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxOptions > p{
+    color: gray;
+}
+
+footer{
+    height: 110px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(29, 29, 29);
+    z-index: 1;
+}
+
+.options{
+    height: 100%;
+    width: 25%;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.options>p{
+    color: white;
+    font-size: small;
+}
+
+.options>img{
+    height: 50%;
+}
+
+
+.containerMessages{
+    height: 1000px;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: auto;
+}
+
+.messagesBox{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+.pfp{
+    height: 100%;
+    border-radius: 100%;
+}
+
+.messagesBox .leftSide{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.leftSide > h1{
+    margin: 0;
+    padding: 0;
+}
+
+.messagesBox .rightSide{
+    width: 20%;
+}
+
+.leftSide>p{
+    color: gray;
+}
+
+.rightSide>p{
+    text-align: center;
+    color: gray;
+}

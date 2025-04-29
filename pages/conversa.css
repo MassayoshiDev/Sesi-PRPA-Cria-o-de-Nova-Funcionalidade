@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+    font-family: sans-serif;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+
+footer .audio{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(129, 221, 76);
+    border-radius: 50%;
+}
+
+footer .message{
+    height: 60px;
+    width: 70%;
+    border-radius: 50px;
+    background-color: rgb(70, 70, 70);
+}
+
+header{
+    height: 70px;
+    background-color: red;
+}
