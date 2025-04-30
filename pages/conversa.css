@@ -113,3 +113,23 @@ main{
 .deleMensagem>p{
     color: white;
 }
+
+.containerOptions{
+    background-color: rgb(25, 25, 25);
+    height: 300px;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+}
+
+.containerOptions .boxOptions{
+    width: 100%;
+}
+
+.boxOptions > p{
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+}
